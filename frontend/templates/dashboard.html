@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dashboard-container">
+    <h1>Corporate Sustainability Dashboard</h1>
+    
+    <div class="metrics-grid">
+        <div class="metric-card">
+            <h3>Carbon Footprint</h3>
+            <div class="metric-value" id="carbon-footprint">Loading...</div>
+        </div>
+        <div class="metric-card">
+            <h3>Energy Consumption</h3>
+            <div class="metric-value" id="energy-consumption">Loading...</div>
+        </div>
+        <div class="metric-card">
+            <h3>Waste Reduction</h3>
+            <div class="metric-value" id="waste-reduction">Loading...</div>
+        </div>
+        <div class="metric-card">
+            <h3>Employee Participation</h3>
+            <div class="metric-value" id="employee-participation">Loading...</div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

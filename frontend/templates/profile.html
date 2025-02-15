@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="profile-container">
+    <div class="profile-header">
+        <div class="profile-info">
+            <h1>Employee Profile</h1>
+            <div class="profile-stats">
+                <div class="stat-card">
+                    <h3>Completed Modules</h3>
+                    <span class="stat-value">12</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Carbon Saved</h3>
+                    <span class="stat-value">245 kg</span>
+                </div>
+                <div class="stat-card">
+                    <h3>Achievement Points</h3>
+                    <span class="stat-value">850</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-content">
+        <div class="profile-section">
+            <h2>Current Progress</h2>
+            <div class="progress-cards">
+                <div class="progress-card">
+                    <div class="progress-header">
+                        <h3>Sustainable HR Practices</h3>
+                        <span class="progress-badge">In Progress</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                    <p>60% Complete</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-section">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🌟</div>
+                    <h3>Sustainability Champion</h3>
+                    <p>Completed all core modules</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🌱</div>
+                    <h3>Green Initiative</h3>
+                    <p>Started 5 eco-friendly projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
